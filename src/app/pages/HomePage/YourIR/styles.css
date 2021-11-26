@@ -1,0 +1,42 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  margin: 50px;
+}
+
+.arrow .yourir-positive {
+  color: #65cc00;
+}
+.arrow .yourir-positive:before {
+  content: "\2b06";
+}
+.arrow .yourir-negative {
+  color: #e70000;
+}
+.arrow .yourir-negative:before {
+  content: "\2b07";
+}
+
+#simplequote span.yourir-change span.yourir-zero:before {
+  content: "No Change";
+}
+#simplequote span.yourir-pct-change span.yourir-positive:before {
+  content: " / ";
+}
+#simplequote span.yourir-pct-change span.yourir-negative:before {
+  content: " / ";
+}
+
+
+.quote td {
+  padding: 5px;
+  min-width: 6em;
+  border-bottom: 1px solid #EFEFEF;
+  text-align: center;
+}
+
+.quote th {
+  border-bottom: 1px solid #EFEFEF;
+  text-align: center;
+}
