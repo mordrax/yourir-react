@@ -1,5 +1,5 @@
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 13px;
   line-height: 20px;
   margin: 50px;
@@ -9,34 +9,40 @@ body {
   color: #65cc00;
 }
 .arrow .yourir-positive:before {
-  content: "\2b06";
+  content: '\2b06';
 }
 .arrow .yourir-negative {
   color: #e70000;
 }
 .arrow .yourir-negative:before {
-  content: "\2b07";
+  content: '\2b07';
 }
 
 #simplequote span.yourir-change span.yourir-zero:before {
-  content: "No Change";
+  content: 'No Change';
 }
 #simplequote span.yourir-pct-change span.yourir-positive:before {
-  content: " / ";
+  content: ' / ';
 }
 #simplequote span.yourir-pct-change span.yourir-negative:before {
-  content: " / ";
+  content: ' / ';
 }
-
 
 .quote td {
   padding: 5px;
   min-width: 6em;
-  border-bottom: 1px solid #EFEFEF;
+  border-bottom: 1px solid #efefef;
   text-align: center;
 }
 
 .quote th {
-  border-bottom: 1px solid #EFEFEF;
+  border-bottom: 1px solid #efefef;
   text-align: center;
+}
+
+#example-price-fill {
+  /* #example-price-fill .yourir-chart-price-fill { */
+  fill: #000;
+
+  fill-opacity: 0.1;
 }

@@ -11,7 +11,6 @@ export function HomePage() {
   return (
     <>
       <Helmet>
-        <script src="https://yourir.info/example.js" type="text/javascript" />
         <title>Home Page</title>
         <meta
           name="descriptio"
